@@ -109,44 +109,68 @@
                     <th>Viernes</th>
                 </tr>
                 <tr>
-                    <td>8-8:30</td>
-                    <td class="selected">Aprender</td>
+                    <td>06:00-07:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>08:00-12:00</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                </tr>
+                <tr>
+                    <td>12:00-12:45</td>
+                    <td class="selected">Almuerzo</td>
+                    <td class="selected">Almuerzo</td>
+                    <td class="selected">Almuerzo</td>
+                    <td class="selected">Almuerzo</td>
+                    <td class="selected">Almuerzo</td>
+                </tr>
+                <tr>
+                    <td>13:00-16:30</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                    <td class="selected">Ferreyros</td>
+                </tr>
+                <tr>
+                    <td>16:30-17:45</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>9-10</td>
+                    <td>18:00-19:15</td>
+                    <td class="selected">Gimnasio</td>
+                    <td class="selected">Gimnasio</td>
+                    <td class="selected">Gimnasio</td>
+                    <td class="selected">Gimnasio</td>
+                    <td class="selected">Gimnasio</td>
+                </tr>
+                <tr>
+                    <td>19:15-19:45</td>
                     <td></td>
-                    <td class="selected">Practicar</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>1-1:30</td>
-                    <td></td>
-                    <td></td>
-                    <td class="selected">Distraerme</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3:45-5</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="selected">Codear</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6-6:15</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="selected">Discutir</td>
+                    <td>19:45-20:15</td>
+                    <td class="selected">Pasear mascota</td>
+                    <td class="selected">Pasear mascota</td>
+                    <td class="selected">Pasear mascota</td>
+                    <td class="selected">Pasear mascota</td>
+                    <td class="selected">Pasear mascota</td>
                 </tr>
             </table>
         </div>
@@ -200,10 +224,10 @@
 
             <form method="post" action="RegistroServlet">
                 <input id="name" name="name" placeholder="Nombre" type="text" maxlength="25" required /><br/>
-                <input id="email" name="email" placeholder="Correo" type="email" maxlength="25" required /><br/>
+                <input id="email" name="email" placeholder="Correo" type="email" maxlength="75" required /><br/>
                 <textarea onkeyup="textCounter(this, 'counter', 300);" id="message" name="message" placeholder="Mensaje" maxlength="300" required ></textarea>
-                <input type="submit" value="ENVIAR" class="submit" />
                 <input disabled  maxlength="3" size="3" value=300 id="counter">
+                <input type="submit" value="ENVIAR" class="submit" />                
             </form>
         </div>
         <!-- Form section end -->
